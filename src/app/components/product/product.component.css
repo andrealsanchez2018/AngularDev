@@ -1,0 +1,54 @@
+/* 
+    #d9d3e4
+    #533193
+    #211643
+    #ac8cbc
+    #9678b7
+    #2b1d60
+    #745aad
+    #8a5cb0
+*/
+
+.h1Tit{
+    font-family: Wonka;
+    margin-top: 30px;
+    text-align: center;
+    color: #533193;
+}
+.cotenedorgridFac{
+    margin-top: 20px;
+}
+
+.card1{
+    background-color: #9678b7;
+    color: #d9d3e4 ;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    /*display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center; */
+   
+}
+
+.titCard{
+    margin-top: 5px;
+    color: #533193 ;
+    text-align: center;
+}
+
+.card2{
+    margin-top: 20px;
+    box-shadow: 15px -5px 10px 0px rgba(150, 120, 183, 0.5);
+    border-radius: 20px;
+    
+}
+
+.cardImg{
+    width: 250px;
+    height: 100px;
+    margin: auto;
+    border-radius: 10px;
+    
+}

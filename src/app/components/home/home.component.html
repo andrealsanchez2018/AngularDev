@@ -1,0 +1,20 @@
+
+
+<ngbd-carousel-basic></ngbd-carousel-basic>
+<p class="leyenda">Cada gota del río es chocolate fundido de la mejor claidad, la cascada es lo más importante, ahi se bate el chocolate y se mezcla para que sea más ligero.</p>
+<div class="container">
+    <div class="row flexContenedor">
+        <div class="col-3 caja" [ngClass]="classover" (mouseover)='over()' (mouseout)='out()' >
+            <p class="cajaTexto">Conoce nuestros procesos</p>
+        </div>
+        
+        <div class="col-3 caja" [ngClass]="classover" (mouseover)='over()' (mouseout)='out()'>
+            <p class="cajaTexto">Antójate con nuestros chocolates</p>
+        </div>
+
+        <div class="col-3 caja" [ngClass]="classover" (mouseover)='over()' (mouseout)='out()'>
+            <p class="cajaTexto">Cuentanos tus sugerencias</p>
+        </div>
+
+    </div>
+</div>

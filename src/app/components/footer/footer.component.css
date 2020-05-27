@@ -1,0 +1,24 @@
+/* 
+    #d9d3e4
+    #533193
+    #211643
+    #ac8cbc
+    #9678b7
+    #2b1d60
+    #745aad
+    #8a5cb0
+*/
+
+.letra{
+    background-color: #533193;
+    color: #d9d3e4;
+    margin-top: 25px;
+}
+
+.titFoo{
+    font-size: 30px;
+}
+
+.pfoot{
+    text-align: left ;
+}

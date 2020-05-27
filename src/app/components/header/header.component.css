@@ -1,0 +1,30 @@
+/* 
+    #d9d3e4
+    #533193
+    #211643
+    #ac8cbc
+    #9678b7
+    #2b1d60
+    #745aad
+    #8a5cb0
+*/
+
+.purple{
+    color: #2b1d60;
+}
+
+.dimension{
+    height: 70px;
+    width: 100px;
+}
+
+.navbar{
+    background-color: #d9d3e4;
+    
+    box-shadow: 0px 10px 40px 0px rgba(32, 21, 65, 0.5) ;
+}
+
+ul li a{
+    color: #533193;
+    font-size: 40px;
+}

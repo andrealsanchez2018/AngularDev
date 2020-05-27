@@ -1,0 +1,56 @@
+/* 
+    #d9d3e4
+    #533193
+    #211643
+    #ac8cbc
+    #9678b7
+    #2b1d60
+    #745aad
+    #8a5cb0
+*/
+
+.leyenda{
+    margin-top: 15px;
+    background-color: rgba(82, 48, 145, 0.9);
+    color: #d9d3e4;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 19px;
+    box-shadow: 0px -10px 40px 0px rgba(32, 21, 65, 0.5) ;
+}
+
+.caja{
+    background-color: #9678b7;
+    margin-right: 10px;
+     /* [1ero (pos o neg)en eje x], [2do sombra en eje y], 
+     [3ro cantidad de difuminado], [Que tan ancha sera la sombra] */
+    box-shadow: 40px -5px 10px 0px rgba(150, 120, 183, 0.5);
+    border-radius: 10px;
+    width: 30%; /* flex funciona mejor con porcentajes */
+    height: 150px;
+
+    display: flex;
+    flex-wrap: wrap; /* cuando los componentes hijos superen el ancho haga un salto de linea */
+    flex-direction: row;
+    justify-content: center;
+    align-content: center; /* para que el texto quede en el centro pwro solo funciona cuando hay display-flex */
+}
+
+.cajaTexto{
+    color: #d9d3e4;
+    vertical-align: bottom;
+    
+}
+
+.zoom{
+    transform: scale(1.15);
+    
+}
+
+.flexContenedor{
+    width: 100%; /* para que el contenedor ocupe el 100% de a Pantalla */
+    display: flex;
+    flex-wrap: wrap; /* cuando los componentes hijos superen el ancho haga un salto de linea */
+    flex-direction: row;
+    justify-content: space-around; /* divide el contenedor en partes iguales */
+}
